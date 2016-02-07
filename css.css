@@ -1,0 +1,47 @@
+.str {
+	white-space: nowrap;
+}
+.btn {
+	background: #fafafa;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+	outline:none;
+	cursor:pointer;
+	transition:0.2s;
+}
+.btn:active {
+	background: #eee;
+	box-shadow: inset 0px 12px 7px -10px #ccc;
+}
+
+.block_n {
+    border: 1px dotted #9D9D9D;
+    display: inline-block;
+}
+.block_n > .title {
+	overflow:hidden;
+	color: #494967;
+	text-align: center;
+	padding: 10px 25px;
+	background-color: #F2F2F2;
+}
+.pw {
+	width:50%;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.block_n > .content{
+	border-top: 2px solid #F00;
+}
+.block_n > .content > .str{
+	overflow:hidden;
+	padding: 5px 25px;
+	border-bottom: 1px dotted #ccc;
+}
+.text_center {
+	text-align: center;
+}
